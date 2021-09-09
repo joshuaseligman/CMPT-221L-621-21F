@@ -105,3 +105,6 @@ dist
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
+
+# DS_STORE
+.DS_Store
