@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Bootstrap CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Add a font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link the custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Galactic Republic Reports</title>
+</head>
+
+<body>
+    <!-- Creates the nav bar on the top of the webpage -->
+    <nav class="nav-bar">
+        <!-- Nav top row-->
+        <div class="nav-row">
+            <img src="republic-logo.png" alt="Website logo" id="top-logo">
+            <h1 id="title-text">Galactic Republic Reports</h1>
+            <p id="nav-subtext"><i>The galaxy's largest community news site since 25,000 BBY</i></p>
+        </div>
+        <!-- Nav bottom row -->
+        <div class="nav-row">
+            <a class="acct-btn" id="sign-up-btn" href="#">Join the Conversation</a>
+            <a class="acct-btn" id="log-in-btn" href="#">Connect Your Transmission</a>
+        </div>
+    </nav>
+
+    <!-- This div contains the content that the user will immediately see on top -->
+    <div class="content-top">
+        <!-- Trending news area -->
+        <div class="news-area" id="trending-news">
+            <h2>Trending News</h2>
+            <div class="post">
+                <h3>Darth Plagueis the Wise</h3>
+                <h4>Darth Jar Jar <span><img src="jarjar.jpg" alt="Jar Jar Binks profile picture"
+                            class="profile-pic"></span></h4>
+                <p>Lucas ipsum dolor sit amet tusken raider darth watto antilles skywalker amidala dagobah boba yavin
+                    jango. Luke skywalker hutt owen yoda palpatine hutt vader han. Moff c-3p0 solo utapau wookiee windu.
+                    Jinn dooku wedge amidala calrissian binks bespin tusken raider qui-gon. Calamari tatooine solo leia
+                    maul. Moff solo solo k-3po lando han palpatine c-3po dagobah. Darth amidala maul leia fett dagobah.
+                    Jade leia bothan kashyyyk fett hutt mon. Baba mace moff dantooine. Leia yavin darth hoth solo
+                    mandalorians twi'lek darth dooku.</p>
+                <h6>7 Month 9, 21 BBY at 11:38</h6>
+            </div>
+            <div class="post">
+                <h3>Porgs Are Yummy</h3>
+                <h4>Chewy <span><img src="chewy.jpg" alt="Chewbacca profile picture" class="profile-pic"></h4>
+                <p>Lucas ipsum dolor sit amet chewbacca dagobah vader mace droid mustafar sidious antilles k-3po
+                    mandalore. Darth mon jabba darth wicket leia antilles moff coruscant. Solo coruscant darth yoda hutt
+                    secura sidious. Twi'lek watto jabba kit. Mon sebulba wedge darth baba. Twi'lek han droid kit organa
+                    anakin moff r2-d2. Greedo organa darth kenobi moff zabrak. Antilles yavin calrissian hutt antilles.
+                    Luke leia wampa luuke calrissian jango lando wookiee coruscant. Twi'lek jinn antilles secura
+                    dantooine boba skywalker tusken raider.</p>
+                <h6>6 Month 9, 21 BBY at 14:10</h6>
+            </div>
+            <div class="post">
+                <h3>Hello There</h3>
+                <h4>Obi-Wan Kenobi <span><img src="kenobi.jpg" alt="Obi-Wan Kenobi profile picture" class="profile-pic">
+                </h4>
+                <p>Lucas ipsum dolor sit amet calrissian lobot grievous dooku kit moff r2-d2 secura obi-wan dooku. Jabba
+                    antilles jawa kenobi windu naboo coruscant qui-gonn. Ackbar leia yoda greedo. Maul wedge lobot biggs
+                    solo dantooine organa. Baba leia maul ponda hutt. Padmé calamari wicket jawa k-3po. Antilles kit
+                    mara yoda. Calrissian fisto ahsoka owen. Tatooine organa qui-gon hutt jango. Moff amidala yoda luke
+                    skywalker gonk hutt hutt. Padmé skywalker twi'lek hutt. Kenobi kessel solo chewbacca ackbar thrawn
+                    dantooine moff bespin.</p>
+                <h6>7 Month 9, 21 BBY at 18:41</h6>
+            </div>
+        </div>
+        <!-- Latest news area -->
+        <div class="news-area" id="latest-news">
+            <h2>Latest News</h2>
+            <div class="post">
+                <h3>Why so Sidious?</h3>
+                <h4>Master Yoda <span><img src="yoda.png" alt="Master Yoda profile picture" class="profile-pic"></h4>
+                <p>Lucas ipsum dolor sit amet jango fett mon dooku wampa thrawn anakin k-3po fett leia. Yavin luke
+                    sidious sidious sidious. Palpatine anakin dagobah watto kessel darth dagobah droid. Solo dagobah
+                    dooku grievous solo leia amidala moff skywalker. Hutt solo twi'lek solo antilles sebulba darth.
+                    Organa hutt droid antilles moff darth. Hutt kamino dantooine moff luuke ventress dooku. Jabba mara
+                    tatooine anakin ponda. Mace tusken raider calamari moff windu fett yoda naboo wedge. Lando qui-gon
+                    anakin mace c-3po.</p>
+                <h6>9 Month 9, 21 BBY at 14:10</h6>
+            </div>
+            <div class="post">
+                <h3>My Precious Decoration</h3>
+                <h4>Jabba the Hutt <span><img src="jabba.jpg" alt="Jabba the Hutt profile picture" class="profile-pic">
+                </h4>
+                <p>Lucas ipsum dolor sit amet wookiee solo yoda darth sith han organa amidala skywalker vader. Antilles
+                    lando gonk anakin dantooine hoth jade organa. Ben utapau ewok wookiee hutt. Jango yoda jar padmé
+                    mara luke. Chewbacca jinn moff ahsoka yavin calamari hutt solo moff. Dooku mara jango mon sidious.
+                    Solo darth obi-wan anakin hoth dantooine. Jade jabba thrawn hutt. Moff wampa antilles moff luuke
+                    alderaan ackbar. Windu coruscant watto dantooine chewbacca yoda dooku. Palpatine padmé skywalker
+                    jade. Gamorrean antilles mandalore jar solo hoth ponda secura kenobi.</p>
+                <h6>9 Month 9, 21 BBY at 3:53</h6>
+            </div>
+            <div class="post">
+                <h3>Watto is on Coruscant</h3>
+                <h4>Anakin Skywalker <span><img src="anakin.jpg" alt="Anakin Skywalker profile picture"
+                            class="profile-pic"></h4>
+                <p>Lucas ipsum dolor sit amet jar moff bespin hutt qui-gon mustafar hutt han solo ewok. Moff chewbacca
+                    owen coruscant. Biggs kashyyyk moff solo qui-gon. Twi'lek utapau moff owen amidala coruscant sith
+                    skywalker solo. Zabrak fett yoda skywalker droid anakin dagobah. Baba amidala kit fett fisto
+                    mandalorians hutt vader cade. Leia moff ewok kit luuke. Coruscant secura watto fisto naboo solo
+                    lando lando. Grievous dagobah darth hutt c-3po. Mace twi'lek wicket mace greedo. Antilles palpatine
+                    obi-wan kenobi yavin obi-wan.</p>
+                <h6>8 Month 9, 21 BBY at 21:06</h6>
+            </div>
+        </div>
+    </div>
+    <!-- This area contains the pictures of the war -->
+    <div class="war-area">
+        <h2>Scans of the War Effort</h2>
+        <div id="war-pictures" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#war-pictures" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#war-pictures" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#war-pictures" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="war1.jpg" class="d-block" alt="Clone troopers picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Moff dagobah darth tusken raider antilles skywalker antilles.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="war2.jpg" class="d-block" alt="Training picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Owen ventress ahsoka solo biggs jabba.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="war3.jpg" class="d-block" alt="Ahsoka and Maul picture">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Darth mandalore grievous qui-gonn. Kenobi chewbacca antilles boba vader.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#war-pictures" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#war-pictures" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    Defines the area with all of the posts
+    <div class="all-posts news-area">
+        <h2>All Reported News</h2>
+        <div class="accordion" id="posts-list">
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Why so Sidious?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Master Yoda <span><img src="yoda.png" alt="Master Yoda profile picture" class="profile-pic">
+                        </h4>
+                        <p>Lucas ipsum dolor sit amet jango fett mon dooku wampa thrawn anakin k-3po fett leia. Yavin
+                            luke sidious sidious sidious. Palpatine anakin dagobah watto kessel darth dagobah droid.
+                            Solo dagobah dooku grievous solo leia amidala moff skywalker. Hutt solo twi'lek solo
+                            antilles sebulba darth. Organa hutt droid antilles moff darth. Hutt kamino dantooine moff
+                            luuke ventress dooku. Jabba mara tatooine anakin ponda. Mace tusken raider calamari moff
+                            windu fett yoda naboo wedge. Lando qui-gon anakin mace c-3po.</p>
+                        <h6>9 Month 9, 21 BBY at 14:10</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        My Precious Decoration
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Jabba the Hutt <span><img src="jabba.jpg" alt="Jobba the Hutt profile picture"
+                                    class="profile-pic"></h4>
+                        <p>Lucas ipsum dolor sit amet wookiee solo yoda darth sith han organa amidala skywalker vader.
+                            Antilles lando gonk anakin dantooine hoth jade organa. Ben utapau ewok wookiee hutt. Jango
+                            yoda jar padmé mara luke. Chewbacca jinn moff ahsoka yavin calamari hutt solo moff. Dooku
+                            mara jango mon sidious. Solo darth obi-wan anakin hoth dantooine. Jade jabba thrawn hutt.
+                            Moff wampa antilles moff luuke alderaan ackbar. Windu coruscant watto dantooine chewbacca
+                            yoda dooku. Palpatine padmé skywalker jade. Gamorrean antilles mandalore jar solo hoth ponda
+                            secura kenobi.</p>
+                        <h6>9 Month 9, 21 BBY at 3:53</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Watto is on Coruscant
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Anakin Skywalker <span><img src="anakin.jpg" alt="Anaking Skywalker profile picture"
+                                    class="profile-pic"></h4>
+                        <p>Lucas ipsum dolor sit amet jar moff bespin hutt qui-gon mustafar hutt han solo ewok. Moff
+                            chewbacca owen coruscant. Biggs kashyyyk moff solo qui-gon. Twi'lek utapau moff owen amidala
+                            coruscant sith skywalker solo. Zabrak fett yoda skywalker droid anakin dagobah. Baba amidala
+                            kit fett fisto mandalorians hutt vader cade. Leia moff ewok kit luuke. Coruscant secura
+                            watto fisto naboo solo lando lando. Grievous dagobah darth hutt c-3po. Mace twi'lek wicket
+                            mace greedo. Antilles palpatine obi-wan kenobi yavin obi-wan.</p>
+                        <h6>8 Month 9, 21 BBY at 21:06</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Hello There
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Obi-Wan Kenobi <span><img src="kenobi.jpg" alt="Obi-Wan Kenobi profile picture"
+                                    class="profile-pic"></h4>
+                        <p>Lucas ipsum dolor sit amet calrissian lobot grievous dooku kit moff r2-d2 secura obi-wan
+                            dooku. Jabba antilles jawa kenobi windu naboo coruscant qui-gonn. Ackbar leia yoda greedo.
+                            Maul wedge lobot biggs solo dantooine organa. Baba leia maul ponda hutt. Padmé calamari
+                            wicket jawa k-3po. Antilles kit mara yoda. Calrissian fisto ahsoka owen. Tatooine organa
+                            qui-gon hutt jango. Moff amidala yoda luke skywalker gonk hutt hutt. Padmé skywalker twi'lek
+                            hutt. Kenobi kessel solo chewbacca ackbar thrawn dantooine moff bespin.</p>
+                        <h6>7 Month 9, 21 BBY at 18:41</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Darth Plagueis the Wise
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Darth Jar Jar <span><img src="jarjar.jpg" alt="Jar Jar Binks profile picture"
+                                    class="profile-pic"></span></h4>
+                        <p>Lucas ipsum dolor sit amet tusken raider darth watto antilles skywalker amidala dagobah boba
+                            yavin jango. Luke skywalker hutt owen yoda palpatine hutt vader han. Moff c-3p0 solo utapau
+                            wookiee windu. Jinn dooku wedge amidala calrissian binks bespin tusken raider qui-gon.
+                            Calamari tatooine solo leia maul. Moff solo solo k-3po lando han palpatine c-3po dagobah.
+                            Darth amidala maul leia fett dagobah. Jade leia bothan kashyyyk fett hutt mon. Baba mace
+                            moff dantooine. Leia yavin darth hoth solo mandalorians twi'lek darth dooku.</p>
+                        <h6>7 Month 9, 21 BBY at 11:38</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Porgs Are Yummy
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Chewy <span><img src="chewy.jpg" alt="Chewbacca profile picture" class="profile-pic"></h4>
+                        <p>Lucas ipsum dolor sit amet chewbacca dagobah vader mace droid mustafar sidious antilles k-3po
+                            mandalore. Darth mon jabba darth wicket leia antilles moff coruscant. Solo coruscant darth
+                            yoda hutt secura sidious. Twi'lek watto jabba kit. Mon sebulba wedge darth baba. Twi'lek han
+                            droid kit organa anakin moff r2-d2. Greedo organa darth kenobi moff zabrak. Antilles yavin
+                            calrissian hutt antilles. Luke leia wampa luuke calrissian jango lando wookiee coruscant.
+                            Twi'lek jinn antilles secura dantooine boba skywalker tusken raider.</p>
+                        <h6>6 Month 9, 21 BBY at 14:10</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="post accordion-item">
+                <h2 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        Grievous is Greedo
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <h4>Obi-Wan Kenobi <span><img src="kenobi.jpg" alt="Obi-Wan Kenobi profile picture"
+                                    class="profile-pic"></h4>
+                        <p>Lucas ipsum dolor sit amet skywalker solo jar luuke skywalker organa greedo grievous tatooine
+                            hoth. Moff organa naboo moff naboo ackbar utapau. Moff skywalker lobot maul wookiee. Darth
+                            jinn zabrak luke dantooine jawa mandalore moff. Kessel utapau darth luke ackbar. Yoda organa
+                            jabba jade binks. Ben darth mara c-3p0 darth padmé. Aayla secura sebulba secura wookiee mace
+                            sidious. Skywalker vader watto vader secura grievous dantooine. Mustafar binks cade antilles
+                            dooku dooku luke endor dagobah. Ventress organa sebulba calamari hutt leia calamari sidious.
+                        </p>
+                        <h6>6 Month 9, 21 BBY at 10:10</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    Darth is My Son's Middle Name
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <h4>Anakin Skywalker <span><img src="anakin.jpg" alt="Anakin Skywalker profile picture"
+                                class="profile-pic"></h4>
+                    <p>Lucas ipsum dolor sit amet wedge windu luke darth skywalker qui-gonn biggs watto ackbar
+                        calrissian. Thrawn calrissian windu darth antilles. Jar jabba calamari wicket wedge twi'lek
+                        sith. Mace secura hutt endor. Hoth hutt jinn palpatine solo jango coruscant. Hutt coruscant
+                        organa skywalker gonk maul vader darth moff. Darth luke droid mandalorians luke mara kessel
+                        calamari wedge. Leia qui-gon antilles bespin fisto dooku jar. Kessel chewbacca tatooine baba ben
+                        darth jade chewbacca. Qui-gon darth padmé sidious dooku darth leia ackbar.</p>
+                    <h6>5 Month 9, 21 BBY at 18:28</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+    <!-- Defines the footer of the page-->
+    <footer class="page-end">
+        <div class="footer-section">
+            <h3 id="bottom-title"><span><img src="republic-logo.png" alt="Website logo" id="bottom-logo"></span>Galactic
+                Republic Reports
+            </h3>
+        </div>
+        <p class="footer-section" id="copyright">&copy Galactic Republic</p>
+        <div class="footer-section" id="footer-buttons">
+            <a href="#" class="bottom-btn acct-btn" id="sign-up-btn">Join the Conversation</a>
+            <a href="#" class="bottom-btn acct-btn" id="log-in-btn">Connect Your Transmission</a>
+        </div>
+    </footer>
+</body>
+
+</html>

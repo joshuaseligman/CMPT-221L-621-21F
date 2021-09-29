@@ -1,0 +1,215 @@
+/* Defines the styling for the overall webpage */
+body {
+    font-family: "Exo";
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+
+    background-image: url("stars.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Defines the styling for the nav bar on the top of the webpage */
+.nav-bar {
+    width: 95%;
+    height: 5%;
+    background-color: #EDF2EF;
+    color: #111111;
+    margin: 2% auto;
+    margin-top: 1%;
+}
+
+.nav-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#top-logo {
+    width: 5%;
+    height: 5%;
+    padding: 1%;
+}
+
+#title-text {
+    font-size: 2.25rem;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    width: 42%;
+    padding-top: 0.75%;
+}
+
+#nav-subtext {
+    font-size: 1.125rem;
+    padding-top: 1.5%;
+}
+
+.acct-btn {
+    font-size: 1.5625rem;
+    font-family: "Exo";
+    border: 3px solid;
+    background-color: #EDF2EF;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 1%;
+    color: #111111;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-color: none;
+    text-align: center;
+}
+
+#sign-up-btn:active, #sign-up-btn:hover {
+    color: #57C4E5;
+    border-color: #57C4E5;
+}
+
+#log-in-btn:active, #log-in-btn:hover {
+    color: #F97068;
+    border-color: #F97068;
+}
+
+.content-top {
+    display: flex;
+}
+
+/* Both sides of the news area will have similar properties */
+.news-area {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    border: 3px solid;
+}
+
+.news-area h2, .war-area h2{
+    text-align: center;
+    color: #EDF2EF;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-top: 1%;
+}
+
+/* Define the differences between the two sides */
+#trending-news {
+    border-color: #57C4E5;
+}
+
+#latest-news {
+    border-color: #F97068;
+}
+
+/* All posts will have the same formatting */
+.post {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    background-color: #EDF2EF;
+    font-size: 0.9375rem;
+    padding: 0.5% 1.5% 0.5% 1.5%;
+}
+
+.post h3, h4, h6 {
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.post h3 {
+    font-size: 1.25rem;
+}
+
+.post h4 {
+    font-size: 1.125rem;
+}
+
+.post h6 {
+    font-size: 0.875rem;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* Defines the styling for the war pictures area */
+.war-area {
+    border: 3px #D1D646 solid;
+    margin: 2% 15% 2% 15%;
+}
+
+#war-pictures {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.war-area img {
+    width: 100%;
+    height: 25.0rem;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.all-posts {
+    border: 3px #B388EB solid;
+    width: 95%;
+    margin: 2% auto;
+}
+
+.accordion-button {
+    font-size: 1.5625rem;
+    font-weight: bold;
+    color: #111111;
+    background-color: #EDF2EF;
+
+}
+
+/* Styling for the footer */
+.page-end {
+    width: 95%;
+    margin: 2% auto;
+    margin-bottom: 0;
+    background-color: #EDF2EF;
+    display: flex;
+}
+
+.footer-section {
+    width: 33%;
+    height: auto;
+    align-items: center;
+}
+
+#bottom-title {
+    font-size: 1.5625rem;
+    padding: 1%;
+}
+
+#bottom-logo {
+    width: 15%;
+    height: auto;
+    padding: 1%;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 1.5%;
+}
+
+#footer-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-btn {
+    font-size: 0.9375rem;
+    width: 60%;
+}
