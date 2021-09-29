@@ -139,7 +139,7 @@ body {
 /* Defines the styling for the war pictures area */
 .war-area {
     border: 3px #D1D646 solid;
-    margin: 2% 15% 2% 15%;
+    margin: 2% 15% 0% 15%;
 }
 
 #war-pictures {
@@ -159,7 +159,7 @@ body {
 .all-posts {
     border: 3px #B388EB solid;
     width: 95%;
-    margin: 2% auto;
+    margin: 0% 2% 2% 2%;
 }
 
 .accordion-button {
