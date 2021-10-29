@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form 2</h1>
+    <form method="POST" action="/form2">
+        <label for="birthday">Enter your birthday:</label>
+        <input type="date" name="birthday" required>
+        <br>
+        <label for="emailAddr">Select your favorite season:</label>
+        <label for="fall"><br>Fall</label>
+        <input type="radio" name="favoriteSeason" value="Fall" id="fall" required>
+        <label for="winter"><br>Winter</label>
+        <input type="radio" name="favoriteSeason" value="Winter" id="winter" required>
+        <label for="spring"><br>Spring</label>
+        <input type="radio" name="favoriteSeason" value="Spring" id="spring" required>
+        <label for="summer"><br>Summer</label>
+        <input type="radio" name="favoriteSeason" value="Summer" id="summer" required>
+        <br>
+        <label for="luckyNumber">Enter your lucky number:</label>
+        <input type="number" name="luckyNumber" required>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
